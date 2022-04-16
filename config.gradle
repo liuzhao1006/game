@@ -1,0 +1,32 @@
+ext{
+    sys=[compileSdk:32,
+         applicationId:'com.syd.game',
+         buildToolsVersion:'30.0.0',
+         minSdkVersion:26,
+         targetSdkVersion:32,
+         versionCode:1,
+         versionName:"1.0",
+         ndkVersion:'3.18.1',
+         kotlin_version:'1.6.10',
+         gradleVersion:'7.1.2']
+
+    debug=[logSwitch:true,
+           versionSuffix:'debug',
+           applicationIdSuffix:'debug',
+           ApplicationIdSuffix:'debug',]
+
+    beta=[logSwitch:false,
+             versionSuffix:'beta',
+             applicationIdSuffix:'beta',
+             ApplicationIdSuffix:'beta']
+
+    release=[logSwitch:false,
+             versionSuffix:'release',
+             applicationIdSuffix:'release',
+             ApplicationIdSuffix:'release']
+
+    ndk=[ndkVersionCode:'3.18.1',
+         makefilePath:'src/main/cpp/CMakeLists.txt']
+
+
+}
